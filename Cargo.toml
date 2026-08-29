@@ -1,0 +1,14 @@
+[package]
+name = "noserverai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "noserverai"
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "cli"
+path = "src/main.rs"
